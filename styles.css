@@ -570,18 +570,18 @@
      padding: 10px 20px;
      border: 0px solid #000;
      border-radius: 20px;
-     background-color: transparent;
+     background-color: #46449b;
      -webkit-transition: all 200ms ease;
      transition: all 200ms ease;
      font-family: Recoleta, sans-serif;
-     color: #000;
+     color: rgb(255, 255, 255);
      font-size: 20px;
      text-decoration: none;
    }
    
    .text-block-9:hover {
      background-color: #46449b;
-     box-shadow: 3px 3px 0 0 #2c2b69;
+     box-shadow: 3px 3px 0 0 #4442a4;
      color: #fff;
    }
    
