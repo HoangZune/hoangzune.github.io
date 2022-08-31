@@ -24,6 +24,7 @@
      border-color: #000;
      background-color: transparent;
    }
+
    
    .container-regular {
      width: 100%;
@@ -31,6 +32,22 @@
      min-height: 30px;
      margin-right: auto;
      margin-left: auto;
+   }
+
+   .introhighlight {
+    padding: 7px;
+    border: solid 1px;
+    border-radius: 100%;
+    -webkit-transition: all 200ms ease;
+    transition: all 200ms ease;
+   }
+
+   .introhighlight:hover {
+    padding: 7px;
+    border: solid 1px;
+    border-radius: 100%;
+    background-color: #46449b;
+    color: white;
    }
    
    .navbar-wrapper {
@@ -2607,7 +2624,7 @@
        top: -430px;
        max-width: 83px;
      }
-   
+
      .image-22 {
        position: absolute;
        left: auto;
