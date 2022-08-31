@@ -1,4 +1,4 @@
-/* Generated on: Mon Aug 29 2022 12:02:36 GMT+0000 (Coordinated Universal Time) */
+/* Generated on: Wed Aug 31 2022 12:46:17 GMT+0000 (Coordinated Universal Time) */
 /* ==========================================================================
    normalize.css v3.0.3 | MIT License | github.com/necolas/normalize.css 
    ========================================================================== */
@@ -25,15 +25,6 @@
      background-color: transparent;
    }
 
-   
-   .container-regular {
-     width: 100%;
-     max-width: 1260px;
-     min-height: 30px;
-     margin-right: auto;
-     margin-left: auto;
-   }
-
    .introhighlight {
     padding: 7px;
     border: solid 1px;
@@ -48,6 +39,14 @@
     border-radius: 100%;
     background-color: #46449b;
     color: white;
+   }
+   
+   .container-regular {
+     width: 100%;
+     max-width: 1260px;
+     min-height: 30px;
+     margin-right: auto;
+     margin-left: auto;
    }
    
    .navbar-wrapper {
@@ -2347,6 +2346,7 @@
    }
    
    .contacttext.link {
+     border: 0px solid #000;
      color: #000;
      text-decoration: none;
    }
@@ -2448,6 +2448,61 @@
      font-size: 20px;
    }
    
+   .div-block-11 {
+     display: -webkit-box;
+     display: -webkit-flex;
+     display: -ms-flexbox;
+     display: flex;
+     overflow: hidden;
+     width: 100%;
+     height: 100%;
+     -webkit-box-orient: horizontal;
+     -webkit-box-direction: normal;
+     -webkit-flex-direction: row;
+     -ms-flex-direction: row;
+     flex-direction: row;
+     -webkit-box-pack: center;
+     -webkit-justify-content: center;
+     -ms-flex-pack: center;
+     justify-content: center;
+     -webkit-box-align: center;
+     -webkit-align-items: center;
+     -ms-flex-align: center;
+     align-items: center;
+     grid-auto-columns: 1fr;
+     grid-column-gap: 0px;
+     grid-row-gap: 16px;
+     -ms-grid-columns: 1fr 1fr;
+     grid-template-columns: 1fr 1fr;
+     -ms-grid-rows: auto auto;
+     grid-template-rows: auto auto;
+   }
+   
+   .image-31 {
+     height: 175px;
+   }
+   
+   .image-32 {
+     height: 175px;
+   }
+   
+   .image-32.light {
+     display: none;
+     cursor: pointer;
+   }
+   
+   .image-32.dark {
+     cursor: pointer;
+   }
+   
+   .image-33 {
+     height: 175px;
+   }
+   
+   .div-block-12 {
+     height: 175px;
+   }
+   
    @media screen and (min-width: 1440px) {
      .body {
        overflow: visible;
@@ -2544,7 +2599,7 @@
        height: 700px;
        padding-bottom: 40px;
        border-bottom: 1px solid #000;
-       background-color: #fff;
+       background-color: transparent;
      }
    
      .itemdescription {
@@ -2621,10 +2676,10 @@
      .image-21 {
        position: relative;
        left: 153px;
-       top: -430px;
+       top: -439px;
        max-width: 83px;
      }
-
+   
      .image-22 {
        position: absolute;
        left: auto;
@@ -3167,6 +3222,12 @@
      .hobbides {
        width: 300px;
      }
+   
+     .image-32.light {
+       display: none;
+       -webkit-filter: invert(100%);
+       filter: invert(100%);
+     }
    }
    
    @media screen and (max-width: 767px) {
@@ -3478,7 +3539,11 @@
    
      .section-4 {
        display: block;
-       height: 175px;
+       height: 125px;
+       -webkit-box-align: start;
+       -webkit-align-items: flex-start;
+       -ms-flex-align: start;
+       align-items: flex-start;
      }
    
      .section-4.aboutme {
@@ -3750,6 +3815,34 @@
    
      .hobbides {
        width: 250px;
+     }
+   
+     .div-block-11 {
+       -webkit-box-pack: center;
+       -webkit-justify-content: center;
+       -ms-flex-pack: center;
+       justify-content: center;
+       -webkit-box-align: center;
+       -webkit-align-items: center;
+       -ms-flex-align: center;
+       align-items: center;
+     }
+   
+     .image-31 {
+       height: 125px;
+       padding-left: 0px;
+       -o-object-fit: contain;
+       object-fit: contain;
+     }
+   
+     .image-32 {
+       height: 125px;
+     }
+   
+     .image-33 {
+       height: 125px;
+       -o-object-fit: contain;
+       object-fit: contain;
      }
    }
    
@@ -4148,7 +4241,7 @@
      }
    
      .section-4 {
-       height: 1%;
+       height: 70px;
        margin-top: -10px;
        border-top-width: 0px;
      }
@@ -4450,6 +4543,26 @@
    
      .hobbides {
        font-size: 14px;
+     }
+   
+     .div-block-11 {
+       overflow: hidden;
+     }
+   
+     .image-31 {
+       height: 70px;
+       -o-object-fit: fill;
+       object-fit: fill;
+     }
+   
+     .image-32 {
+       height: 70px;
+     }
+   
+     .image-33 {
+       height: 70px;
+       -o-object-fit: fill;
+       object-fit: fill;
      }
    }
    
