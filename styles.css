@@ -25,6 +25,10 @@
      background-color: transparent;
    }
 
+   html {
+    scroll-behavior: smooth;
+   }
+
    .introhighlight {
     padding: 7px;
     border: solid 1px;
