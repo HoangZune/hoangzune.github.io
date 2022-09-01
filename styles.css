@@ -30,19 +30,9 @@
    }
 
    .introhighlight {
-    padding: 7px;
+    padding: 5px;
     border: solid 1px;
     border-radius: 100%;
-    -webkit-transition: all 200ms ease;
-    transition: all 200ms ease;
-   }
-
-   .introhighlight:hover {
-    padding: 7px;
-    border: solid 1px;
-    border-radius: 100%;
-    background-color: #46449b;
-    color: white;
    }
    
    .container-regular {
